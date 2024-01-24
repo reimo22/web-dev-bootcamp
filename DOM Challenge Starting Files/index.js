@@ -1,1 +1,1 @@
-document.query
+document.querySelector("li a").setAttribute("color", "red")
