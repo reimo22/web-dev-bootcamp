@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computer Science Enrollement Form</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+            }
+            input {
+                padding: 8px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            button {
+            background-color: navy;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        </style>
+    </head>
+    <body>
+        <img src="C:\ITCWebLABPinlac\images\cs_logo.png" height="128" width="auto"><br>
+        <h1>Computer Science Registration Form</h1>
+        <h2>Personal Information</h2>
+        Student Name:&emsp;
+        <input type="text" id="Fname" name="Fname" value="First name">
+        <input type="text" id="Mname" name="Mname" value="Middle name">
+        <input type="text" id="Lname" name="Lname" value="Last name"><br>
+        Birth Date:&emsp;&emsp;&emsp;
+        <input type="date" id="Bdate">&emsp;&emsp;&emsp;&emsp;
+        Gender:&emsp;<input type="radio" id="M" name="gender" value="Male">Male&emsp;&emsp;
+        <input type="radio" id="F" name="gender" value="Female">Female<br>
+
+        <h2>Address</h2>
+        Street:&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="street" name="street" value=""><br>
+        City:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="city" name="city" value=""><br>
+        State/Province:&emsp;&nbsp;&nbsp;<input type="text" id="state" name="state" value=""><br>
+        Zip Code:&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<input type="number" min="0" max="9999" id="zipcode"><br>
+        
+        <h2>Contact Information</h2>
+        Email:&emsp;&emsp;&emsp;&emsp;&emsp;<input type="email" name="email" id="email" value="name@example.com"><br>
+        Contact No:&emsp;&emsp;&nbsp;&nbsp;<input type="text" name="contact" id="contact" value="09XX XXX XXXX"><br>
+        <button type="submit">Submit</button>
+    </body>
+</html>
