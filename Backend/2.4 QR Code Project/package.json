@@ -1,0 +1,15 @@
+{
+  "name": "link-to-qr",
+  "version": "1.0.0",
+  "description": "Converts link to qr image, can save previous links to text files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "reimo",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "qr-image": "^3.2.0"
+  }
+}
