@@ -2,10 +2,6 @@
 	"folders": [
 		{
 			"path": ".."
-		},
-		{
-			"name": "OOP",
-			"path": "../OOP"
 		}
 	],
 	"settings": {
